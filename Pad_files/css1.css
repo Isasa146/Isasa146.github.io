@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonth1';
+    src: url("../font/Cheque-Regular.otf");
+}
+
+div#interface {
+    background-color: #a6a6a6;
+
+}
+
+div#pad {
+    background-color: #545454;
+    padding: 300px;
+    margin-top: -25px;
+}
+h1 {
+    font-family: 'fonth1';
+    color: black;
+    padding: 10px
+}
+
+nav#son1 button {
+    margin: 20px;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pad</title>
+    <link rel="stylesheet" type="text/css" href="css/css1.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<script>
+    function ps1() {
+        let audio = document.getElementById('son1');
+        audio.currentTime = 1.5
+        audio.play();
+    }
+
+    function ps2() {
+        let audio = document.getElementById('son2');
+        audio.currentTime = 1.5
+        audio.play();
+    }
+
+    function ps3() {
+        let audio = document.getElementById('son3');
+        audio.currentTime = 0
+         audio.play();
+    }
+
+    function ps4() {
+        let audio = document.getElementById('son4');
+        audio.currentTime = 1.5
+        audio.play();
+    }
+
+    function ps5() {
+        let audio = document.getElementById('son5');
+        audio.currentTime = 1.5
+         audio.play();
+    }
+
+    function ps6() {
+        let audio = document.getElementById('son6');
+        audio.currentTime = 1.5
+        audio.play();
+    }
+
+    function ps7() {
+        let audio = document.getElementById('son7');
+        audio.currentTime = 1.5
+        audio.play();
+    }
+
+    function ps8() {
+        let audio = document.getElementById('son8');
+        audio.currentTime = 0
+        audio.play();
+    }
+
+    function ps9() {
+        let audio = document.getElementById('son9');
+        audio.currentTime = 0.030
+        audio.play();
+    }
+
+    function ps10() {
+        let audio = document.getElementById('son10');
+        audio.currentTime = 0
+        audio.play();
+    }
+
+    function ps11() {
+        let audio = document.getElementById('son11');
+        audio.currentTime = 0
+        audio.play();
+    }
+
+    function ps12() {
+        let audio = document.getElementById('son12');
+        audio.currentTime = 0
+        audio.play();
+    }
+
+    function clickmenu() {
+        if(it.style.display=='block'){
+           it.style.display='none'
+        } else{
+           it.style.display='block'
+        }
+    }
+</script>
+<body>
+<div id="interface">
+        <h1>Pads</h1>
+    <span class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+            <menu id="it">
+              <ul>
+                <a href="#">Sons</a>
+              </ul>
+            </menu>
+</div>
+<div id="pad">
+<nav id="s1">
+    <audio id="son1">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.26.45.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but1" onclick="ps1()">1.</button>
+</nav>
+<nav id="s2">
+    <audio id="son2">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.27.16.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but2" onclick="ps2()">2.</button>
+</nav>
+<nav id="s3">
+    <audio id="son3">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.27.48.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but3" onclick="ps3()">3.</button>
+</nav>
+<nav id="s4">
+    <audio id="son4">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.28.27.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but4" onclick="ps4()">4.</button>
+</div>
+<div id="pad2">
+</nav>
+<nav id="s5">
+    <audio id="son5">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.28.54.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but5" onclick="ps5()">5.</button>
+</nav>
+<nav id="s6">
+    <audio id="son6">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.29.23.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but6" onclick="ps6()">6.</button>
+</nav>
+<nav id="s7">
+    <audio id="son7">
+        <source src="audio/WhatsApp Audio 2024-02-27 at 16.29.58.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but7" onclick="ps7()">7.</button>
+</nav>
+<nav id="s8">
+    <audio id="son8">
+        <source src="audio/kick.mp3.mp3" type="audio/mp3" />
+    </audio>
+    <button id="but8" onclick="ps8()">8.</button>
+</nav>
+</div>
+<div id="pad3">
+<nav id="s9">
+    <audio id="son9">
+        <source src="audio/kickk.mpeg" type="audio/mpeg" />
+    </audio>
+    <button id="but9" onclick="ps9()">9.</button>
+</nav>
+<nav id="s10">
+        <audio id="son10">
+            <source src="audio/aro esquisito.aac" type="audio/aac" />
+        </audio>
+        <button id="but10" onclick="ps10()">10.</button>
+</nav>
+<nav id="s11">
+    <audio id="son11">
+        <source src="audio/clap.aac" type="audio/aac" />
+    </audio>
+    <button id="but11" onclick="ps11()">11.</button>
+</nav>
+<nav id="s12">
+    <audio id="son12">
+        <source src="audio/clap seca.aac" type="audio/aac" />
+    </audio>
+    <button id="but12" onclick="ps12()">12.</button>
+</nav>
+</div>
+<div id="rodape">
+<footer id="rod">
+    <p> Copyright &copy; 2024 - de Isabelle Moreira<br/>
+    <a href="https://www.instagram.com/_isabellemoreira__/" target="_blank">@_isabellemoreira__ </a>(83) 98843-2112</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonth1';
+    src: url("../font/Cheque-Regular.otf");
+}
+
+div#interface {
+    background-color: #a6a6a6;
+
+}
+
+div#pad {
+    background-color: #545454;
+    padding: 100px;
+    margin-top: -25px;
+}
+
+div#pad2 {
+    background-color: #545454;
+    padding: 100px;
+}
+
+div#pad3 {
+    background-color: #545454;
+    padding: 100px;
+}
+
+div#rodape {
+    background-color: #a6a6a6;
+    padding: 10px;
+}
+
+div#rodape p {
+    text-align: center;
+}
+
+div#rodape a {
+    text-decoration: none;
+}
+
+span {
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+div#interface a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'fonth1';
+    color: black;
+    padding: 10px
+}
+
+nav#s1 button#but1 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+nav#s2 button#but2 {
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+nav#s3 button#but3 {
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 300px;
+    position: absolute;
+    cursor: pointer;
+}
+
+nav#s4 button#but4 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+nav#s5 button#but5 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+nav#s6 button#but6 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+nav#s7 button#but7 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+nav#s8 button#but8 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+nav#s9 button#but9 {
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav#s10 button#but10 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: -119px;
+}
+
+nav#s11 button#but11 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 300px;
+    cursor: pointer;
+    margin-top: -119px;
+}
+
+nav#s12 button#but12 {
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 450px;
+    cursor: pointer;
+    margin-top: -119px;
+}
